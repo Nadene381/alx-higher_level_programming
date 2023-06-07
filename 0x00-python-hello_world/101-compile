@@ -1,0 +1,4 @@
+#!/bin/bash
+python_file = "$PYFILE"
+output_p_file = "${py_file%.*}.pyc"
+python - m compileall "$py_file" - b - f - o "$output_file"
