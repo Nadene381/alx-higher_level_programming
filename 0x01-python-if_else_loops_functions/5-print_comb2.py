@@ -1,5 +1,7 @@
 #!/usr/bin/python3
+output_text = ""
 for n in range(100):
-    print("{:02d}".format(n), end='')
+    output_text += "{:02d}".format(n)
     if n != 99:
-        print(',', end=' ')
+        output_text += ', '
+print(output_text)
