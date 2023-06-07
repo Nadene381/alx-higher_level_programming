@@ -1,2 +1,2 @@
 #!/usr/bin/python3
-print(*map(chr, range(ord('a'), ord('z') + 1)), sep='', end='')
+print("".join("{}".format(chr(n)) for n in range(97, 123)), end="")
