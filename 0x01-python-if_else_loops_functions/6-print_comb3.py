@@ -4,4 +4,4 @@ for n in range(10):
         print("{:d}".format(n), end="")
         print("{:d}".format(d), end="")
         if n != 8 or d != 9:
-            print(", ", end="")i
+            print(", ", end="")
