@@ -2,7 +2,7 @@
 import random
 number = random.randint(-10000, 10000)
 number_last_val = abs(number) % 10
-output_message = f"The string Last digit of {number} is {number_last_val}"
+output_message = f"Last digit of {number} is {number_last_val}"
 if number_last_val == 0:
     output_message += " and is 0"
 elif number_last_val > 5:
