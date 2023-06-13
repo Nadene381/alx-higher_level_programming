@@ -1,15 +1,8 @@
 #!/usr/bin/python3
-tupleA = (1, 2)
-tupleB = (3, 4)
-result = add_tuple(tupleA, tupleB)
-print(result)
+def add_tuple(tuple_a=(), tuple_b=()):
+    if len(tuple_a) < 2:
+        tuple_a += (0,) * (2 - len(tuple_a))
+    if len(tuple_b) < 2:
+        tuple_b += (0,) * (2 - len(tuple_b))
+    return tuple(tuple_a[n] + tuple_b[n] for n in range(2))
 
-tupleC = (5,)
-tupleD = (6, 7, 8)
-result = add_tuple(tupleC, tupleD)
-print(result)
-
-tupleE = ()
-tupleF = ()
-result = add_tuple(tupleE, tupleF)
-print(result)
