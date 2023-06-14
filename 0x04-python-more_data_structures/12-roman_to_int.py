@@ -9,7 +9,6 @@ def roman_to_int(roman_string):
         if char not in values:
             return 0
         current = values[char]
-        
         if current > prev_value:
             result += current - 2 * prev_value
         else:
