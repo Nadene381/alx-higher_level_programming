@@ -12,3 +12,5 @@ else:
     while n <= number_argum:
         print("{}: {}".format(n, sys.argv[n]))
         n += 1
+    if __name__ == "__main__":
+    pass
