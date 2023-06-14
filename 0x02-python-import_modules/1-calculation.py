@@ -10,3 +10,5 @@ print("{} + {} = {}".format(a, b, answer_of_add))
 print("{} - {} = {}".format(a, b, answer_of_sub))
 print("{} * {} = {}".format(a, b, answer_of_mul))
 print("{} / {} = {}".format(a, b, answer_of_div))
+if __name__ == "__main__":
+    pass
