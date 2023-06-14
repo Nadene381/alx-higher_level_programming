@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-def search_replace(my_list, search, replace):
-    new_list = []
-    for item in my_list:
-        if item == search:
-            new_list.append(replace)
-        else:
-            new_list.append(item)
-    return new_list
+def square_matrix_simple(matrix):
+    matrix_new = []
+    for row in matrix:
+        row_new = []
+        for n in row:
+            row_new.append(n ** 2)
+        matrix_new.append(row_new)
+    return matrix_new
