@@ -5,10 +5,10 @@ def safe_print_list(my_list=[], x=0):
         for i in my_list:
             print(i, end=' ')
             index += 1
-            if index == x:
+            if index == x or index == len(my_list):
                 break
         print()
         return index
     except TypeError:
-        print("Error: Invalid element")
+        print("Error: Invalid element.")
         return index
