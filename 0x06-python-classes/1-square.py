@@ -3,9 +3,7 @@
 An empty class that defines a square
 '''
   class Square:
-  '''
-  An empty class that defines a square
-  '''
+  """An empty class that defines a square"""
     def __init__(self, size):
     '''
     Initialize new instance of above class.
