@@ -5,12 +5,12 @@ This module contains a class that defines a square.
 
 class Square:
     """
-    This empty class represents a square.
+    Represents a square.
     """
 
     def __init__(self, size=0):
         '''
-        Initialize a new instance of the above square class.
+        Initializes a new instance of the Square class.
         Args:
             size (int): The size of the square. Default is 0.
         Raises:
@@ -46,13 +46,13 @@ class Square:
 
     def area(self):
         '''
-        Calculates and returns the area of a square.
+        Calculates and returns the area of the square.
         Returns:
             int: The area of the square.
         '''
         return self.__size ** 2
-        
-def my_print(self):
+
+    def my_print(self):
         '''
         Prints the square using the '#' character.
         '''
