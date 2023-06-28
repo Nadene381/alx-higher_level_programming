@@ -4,7 +4,7 @@ This module consist of a class that defines a square.
 '''
 
 
- class Square:
+class Square:
     """
     This empty class represents a square.
     """
