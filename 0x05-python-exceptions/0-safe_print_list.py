@@ -7,5 +7,5 @@ def safe_print_list(my_list=[], x=0):
             index += 1
         print()
         return index
-    except Exception as e:
-        print("Invalid element: ", str(e))
+    except Error:
+        print("Invalid element: )
