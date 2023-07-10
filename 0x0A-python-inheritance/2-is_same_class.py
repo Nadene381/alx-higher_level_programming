@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 '''
-   Function that checks if an object is exactly an instance of the specified class it will return True otherwise it will return False
+   Function that checks if an object is exactly an instance
+   of the specified class it will return
+   True otherwise it will return False
 '''
 
 
