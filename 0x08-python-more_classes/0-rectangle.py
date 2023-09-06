@@ -3,10 +3,5 @@ class Rectangle:
     """
     This class represents a Rectangle.
 
-    Attributes:
-        None
-
-    Methods:
-        None
     """
     pass
