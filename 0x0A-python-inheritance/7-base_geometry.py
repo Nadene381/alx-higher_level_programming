@@ -1,22 +1,22 @@
 #!/usr/bin/python3
 '''
-    An empty class
+    Class empty
 '''
 
 
 class BaseGeometry():
     '''
-       Class that represents a BaseGeometry class
+        Represents a BaseGeometry class
     '''
     def area(self):
         '''
-           A method to raise an exception if area was not implemented
+            method to raise exception if area was not implemented
         '''
         raise Exception("area() is not implemented")
 
     def integer_validator(self, name, value):
         '''
-            A method to validate the value
+            method to validate value
             Raise TypeError and ValueError
         '''
         if type(value) != int:
