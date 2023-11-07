@@ -1,19 +1,13 @@
-#!/usr/bin/python3
-'''
-    An empty class
-'''
 The ``7-base_geometry`` module
------------------------------------
+======================
 
 Using ``base_geometry``
 -------------------
 Checking docstring for module:
----------------------------------
 >>> __import__('7-base_geometry').__doc__ != None
 True
 
 Checking docstring for methods:
-------------------------------=--
 >>> __import__('7-base_geometry').BaseGeometry.integer_validator.__doc__ != None
 True
 >>> __import__('7-base_geometry').BaseGeometry.area.__doc__ != None
@@ -26,11 +20,9 @@ True
 
 
 checking new instance/object
------------------------------
 >>> bg = BaseGeometry()
 
 checking new instance with more parameters
--------------------------------------------
 >>> bg = BaseGeometry(1)
 Traceback (most recent call last):
 ...
@@ -77,4 +69,3 @@ TypeError: integer_validator() missing 1 required positional argument: 'value'
 Traceback (most recent call last):
 ...
 TypeError: integer_validator() takes 3 positional arguments but 4 were given
-
